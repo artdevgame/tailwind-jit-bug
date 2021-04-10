@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-jit-bug",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"yarn dev:vite\" \"yarn dev:netlify\"",
+    "dev:netlify": "netlify dev",
+    "dev:vite": "vite"
+  },
+  "devDependencies": {
+    "concurrently": "6.0.1",
+    "netlify-cli": "3.17.0",
+    "tailwindcss": "2.1.1",
+    "vite": "2.1.5"
+  }
+}
