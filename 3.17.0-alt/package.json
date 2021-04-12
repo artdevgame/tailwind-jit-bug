@@ -1,0 +1,12 @@
+{
+  "name": "tailwind-jit-bug",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"yarn dev:netlify\" \"echo 'Yolo'\"",
+    "dev:netlify": "netlify dev"
+  },
+  "devDependencies": {
+    "concurrently": "6.0.1",
+    "netlify-cli": "3.17.0"
+  }
+}
