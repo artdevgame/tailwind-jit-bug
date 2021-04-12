@@ -2,8 +2,7 @@
   "name": "tailwind-jit-bug",
   "version": "1.0.0",
   "scripts": {
-    "dev": "concurrently \"yarn dev:netlify\" \"echo 'Yolo'\"",
-    "dev:netlify": "netlify dev"
+    "dev": "concurrently \"yarn dev:netlify\" \"echo 'Yolo'\""
   },
   "devDependencies": {
     "concurrently": "6.0.1",
